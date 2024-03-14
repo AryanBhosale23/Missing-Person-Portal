@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Company Name</title>
+    <style>
+        /* Add your CSS styles here */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f5f5f5;
+            background-image: url(http://localhost/missingperson/imagesforwebsite/background_for_report.jpg);
+        }
+
+        header {
+            background: #3498db;
+            color: #fff;
+            text-align: center;
+            padding: 30px;
+        }
+
+        .logo {
+            float: left;
+            width: 75px;
+            height: 75px;
+            margin: 10px 20px 0 20px;
+        }
+
+        .company-name {
+            font-size: 36px;
+            margin-top: 20px;
+            text-align: center;
+        }
+
+        nav {
+            background: greenyellow;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 10px;
+            font-size: 24px;
+        }
+
+        .login-section {
+            text-align: center;
+            padding: 20px;
+            margin-left: 1px;
+            margin-right: 100px;
+        }
+
+        .registration-section {
+            text-align: center;
+            padding: 20px;
+        }
+
+        .login-options {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0px;
+            margin-top: 200px;
+            margin-left: 60px;
+            /* background: transparent;
+            border: 2px solid rgba(255, 255, 255, .2);
+            backdrop-filter: blur(15px); */
+        }
+
+        .option {
+            margin: 10px;
+            padding: 15px 20px;
+            border: 1px solid #3498db;
+            border-radius: 5px;
+            cursor: pointer;
+            background: #3498db;
+            color: #fff;
+            text-align: center;
+            font-size: 20px;
+            transition: background 0.3s, color 0.3s;
+        }
+
+        .option2 {
+            margin: 10px;
+            padding: 15px 20px;
+            cursor: pointer;
+            color: #fff;
+            text-align: center;
+            font-size: 20px;
+            transition: background 0.3s, color 0.3s;
+        }
+
+        .option:hover {
+            background: #fff;
+            color: #3498db;
+        }
+
+        .statistics {
+            text-align: center;
+            font-size: 36px;
+            margin-top: 20px;
+        }
+
+        .details {
+            text-align: center;
+            font-size: 24px;
+            padding: 20px;
+        }
+
+        button {
+            background-color: greenyellow;
+            border: none;
+            color: #000;
+            padding: 10px 20px;
+            text-decoration: none;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #eee;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <!-- <div class="logo"><img src="images/f2.png" alt="Logo"></div> -->
+        <div class="company-name">Ensure Secure </div>
+    </header>
+    <nav>
+        <ul>
+            <button onclick="window.open('http://localhost/missingperson/index.html', '_blank')">
+                <h1>Home</h1>
+            </button>
+            <button
+                onclick="window.open('https://trackthemissingchild.gov.in/trackchild/children_related_law.php', '_blank')">
+                <h1>Childern
+                    Related Laws</h1>
+            </button>
+        </ul>
+    </nav>
+
+    <div class="login-options">
+        <div class="login-section">
+            <h2>Login</h2>
+            <div class="option"><a href="policelogin.html">Police Login</div>
+            <div class="option"><a href="custlogin.html">Customer Login</div>
+        </div>
+        <!-- <div class="statistics">
+            <h2>Statistics</h2>
+            <p>Statistics: <span id="statistics-number">12345</span></p>
+        </div> -->
+    </div>
+
+
+</body>
+
+</html>
